@@ -1,4 +1,4 @@
-# 🎮 Jogo de Aventura com Classes em JavaScript
+# 🎮 Jogo de Ação com Classes em JavaScript
 
 ## 🛠 O que eu fiz aqui
 
