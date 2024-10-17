@@ -2,14 +2,17 @@
 
 ## 🛠 O que eu fiz aqui
 
-Neste projeto, criei uma classe simples para representar heróis em uma aventura, utilizando JavaScript. Cada herói tem suas próprias características (nome, idade, tipo) e um método de ataque específico, que varia de acordo com o tipo de herói.
+Neste projeto, criei uma interface simples utilizando **HTML** e **CSS**, junto com o **JavaScript**, para representar heróis em uma aventura. Cada herói tem suas próprias características (nome, idade, tipo) e um método de ataque específico, que varia de acordo com o tipo de herói.
 
 ### 💡 O que utilizei:
 
-- Variáveis para armazenar informações dos heróis.
-- Condicionais para determinar o comportamento do método de ataque.
-- Classes e objetos para representar os heróis.
-- Funções dentro da classe para definir o comportamento do herói, como atacar.
+- **HTML** para estruturar a página e criar os inputs e botões necessários.
+- **CSS** para estilizar a página, criando um visual temático de jogos.
+- **JavaScript** para lidar com a lógica dos heróis, utilizando:
+  - Variáveis para armazenar informações dos heróis.
+  - Condicionais para determinar o comportamento do método de ataque.
+  - Classes e objetos para representar os heróis.
+  - Funções dentro da classe para definir o comportamento do herói, como atacar.
 
 ## 🎯 Objetivo do código
 
@@ -29,7 +32,7 @@ A classe também contém um método chamado **atacar**, que exibe uma mensagem d
 
 ### ⚔️ Método atacar:
 
-O método `atacar` exibe uma mensagem com o tipo de ataque do herói. Ele usa condicionais (`if`/`else`) para escolher o ataque certo com base no tipo:
+O método `atacar` exibe uma mensagem com o tipo de ataque do herói. Ele usa condicionais (`switch`) para escolher o ataque certo com base no tipo:
 
 - Se o herói for **mago**, o ataque será: "usou magia".
 - Se for **guerreiro**, o ataque será: "usou espada".
@@ -39,4 +42,4 @@ O método `atacar` exibe uma mensagem com o tipo de ataque do herói. Ele usa co
 O formato da mensagem é:
 
 ```javascript
-"O {tipo} atacou usando {ataque}"
+"O {tipo} {nome} atacou usando {ataque}"
